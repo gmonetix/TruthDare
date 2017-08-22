@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "657186428368",
+    "firebase_url": "https://truth-and-dare-a3203.firebaseio.com",
+    "project_id": "truth-and-dare-a3203",
+    "storage_bucket": "truth-and-dare-a3203.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657186428368:android:a8c46d6e74fb995c",
+        "android_client_info": {
+          "package_name": "com.gmonetix.truthdare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "657186428368-k9ecf26lq2hfs2vtptvfibn2dhbrccah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRLvOvcq247YEVCNbLW9mmcH7GL4UBzjw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

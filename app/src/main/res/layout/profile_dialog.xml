@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#263238"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.gmonetix.truthdare.font.BoldTextView
+        android:background="@color/colorPrimary"
+        android:text="MY PROFILE"
+        android:gravity="center"
+        android:padding="12dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/profile_dialog_pic"
+            android:src="@drawable/user"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.gmonetix.truthdare.font.BoldTextView
+                android:id="@+id/profile_dialog_name"
+                android:text="Gaurav Bordoloi"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <android.support.v4.widget.Space
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" />
+            <com.gmonetix.truthdare.font.BoldTextView
+                android:id="@+id/profile_dialog_id"
+                android:text="#JPGH537DX"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.gmonetix.truthdare.font.BoldTextView
+        android:background="#CFD8DC"
+        android:text="IN GAME"
+        android:gravity="center"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.gmonetix.truthdare.font.BoldTextView
+        android:text="Total Score - 967"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:background="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp" />
+
+    <com.gmonetix.truthdare.font.BoldTextView
+        android:text="Highest Score - 967"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:background="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp" />
+
+    <com.gmonetix.truthdare.font.BoldTextView
+        android:text="Pole Positions - 967"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:background="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp" />
+
+    <com.gmonetix.truthdare.font.BoldTextView
+        android:text="Truths Completed - 967"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:background="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp" />
+
+    <com.gmonetix.truthdare.font.BoldTextView
+        android:text="Dares Completed - 967"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
